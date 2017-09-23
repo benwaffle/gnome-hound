@@ -27,7 +27,7 @@ for module in moduleset.modules.values():
 
 with open('config.json', 'w') as conf:
     json.dump({
-        'max-concurrent-indexers': 2,
+        'max-concurrent-indexers': 4,
         'dbpath': '/db',
         'repos': repos
     }, conf, sort_keys=True, indent=4, separators=(',', ': '))
