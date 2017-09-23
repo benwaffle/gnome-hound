@@ -8,7 +8,7 @@ from jhbuild.versioncontrol.git import GitBranch
 import __builtin__
 import json
 
-__builtin__.__dict__['SRCDIR'] = None
+__builtin__.__dict__['SRCDIR'] = '/root/jhbuild'
 __builtin__.__dict__['PKGDATADIR'] = None
 __builtin__.__dict__['DATADIR'] = None
 
