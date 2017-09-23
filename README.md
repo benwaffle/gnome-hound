@@ -2,7 +2,7 @@ Runs [Hound](https://github.com/etsy/hound) on GNOME modules.
 
 ```
 $ docker build -t gnome-hound .
-$ docker run -d -p 6080:6080 -v $(pwd)/db:/db gnome-hound
+$ docker run -d -p 6080:6080 -v $PWD/db:/db gnome-hound
 ```
 
 monitor indexing status with `docker logs -f <container id>`
